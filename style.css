@@ -242,6 +242,7 @@
        background-repeat: no-repeat;
        background-position: center;
        height: 100vh;
+       overflow: hidden;
    }
 
    .jason-page1 {
@@ -727,7 +728,7 @@
 
    .info-img-vice-city {
        overflow: hidden;
-       background: linear-gradient(to bottom, rgb(43, 56, 90),  rgb(146, 103, 160));
+       background: linear-gradient(to bottom, rgb(43, 56, 90), rgb(146, 103, 160));
        display: flex;
        height: 140vh;
    }
@@ -767,39 +768,335 @@
    }
 
    .bookie-page1 {
-      background: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgb(146, 103, 160)), url(photos/background-bookie.png);
+       background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.0), rgb(146, 103, 160)), url(photos/background-bookie.png);
        background-position: center;
        background-size: 100%;
        background-repeat: none;
+       height: 130vh;
+       overflow: hidden;
+       display: flex;
+   }
+
+   .bookie-img1 img {
+       width: 600px;
+       margin-top: 100px;
+   }
+
+   .container-info-bookie {
+       flex-direction: column;
+       margin-left: 200px;
+       width: 500px;
+       margin-top: 200px;
+   }
+
+   .info-bookie {
+       font-size: 80px;
+       color: #f9efac;
+       font-family: "Anton", sans-serif;
+   }
+
+   .info-bookie2 {
+       font-size: 40px;
+       color: #fae56e;
+       margin-bottom: 30px;
+   }
+
+   .info-bookie3 {
+       color: white;
+   }
+
+   .bookie-page2 {
+       display: flex;
+       overflow: hidden;
+       height: 220vh;
+       position: relative;
+       overflow: hidden;
+       background: linear-gradient(to bottom, rgb(43, 56, 90), rgb(0, 0, 0))
+   }
+
+   .bookie-img2 img {
+       width: 800px;
+       display: flex;
+       margin-left: 20px;
+   }
+
+   .bookie-img1 img {
+       width: 530px;
+       margin-left: 270px;
+   }
+
+   .bookie-img3 img {
+       width: 800px;
+       margin-top: 30px;
+   }
+
+   .info-bookie4 {
+       margin-left: 100px;
+       font-size: 70px;
+       margin-top: 40px;
+       font-family: "Anton", sans-serif;
+       ;
+       color: #fff1a4;
+   }
+
+   .transition-page5 {
+       background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 75, 106));
+       height: 10vh;
+       overflow: hidden;
+   }
+
+   .bookie-page3 {
+       background: linear-gradient(to top, rgb(54, 75, 106));
        height: 150vh;
        overflow: hidden;
        display: flex;
    }
 
-   .bookie-img1 img{ 
-    width: 600px;
-    margin-top: 100px;
+   .img-bookie5 {
+       display: flex;
    }
 
-   .container-info-bookie{ 
-    flex-direction: column;
-    margin-left: 200px;
-    width: 500px;
-    margin-top: 200px;
+   .img-bookie-img img {
+       width: 500px;
+       margin-left: 300px;
+       margin-top: 20px;
    }
 
-   .info-bookie{ 
-    font-size: 80px;
-    color:#f9efac;
-    font-family:  "Anton", sans-serif;
+   .img-bookie-img2 img {
+       width: 500px;
+       margin-left: 20px;
+       margin-top: 100px;
    }
 
-   .info-bookie2{ 
-    font-size: 40px;
-    color: #fae56e;
-    margin-bottom: 30px;
+   .title-bookie5 {
+       color: #fae56e;
+       font-size: 40px;
+       margin-left: 90px;
+       margin-top: 60px;
    }
 
-   .info-bookie3{ 
-    color: white;
+   .info-bookie5 {
+       color: white;
+       margin-left: 90px;
+       margin-top: 20px;
+   }
+
+   .leonida-key {
+       background: linear-gradient(to top, rgb(150, 76, 143), rgb(54, 75, 106));
+       height: 150vh;
+   }
+
+   .leonida-img img {
+       width: 70%;
+       margin-left: 230px;
+       margin-top: 230px;
+   }
+
+   .leonida-img {
+       position: relative;
+   }
+
+   .leonida-img button {
+       position: absolute;
+       transform: translate(-50%, -50%);
+       border: none;
+       border-radius: 24px;
+       height: 50px;
+       width: 200px;
+       cursor: pointer;
+       padding: 10px 20px;
+       margin-top: 330px;
+       top: 50%;
+       left: 50%;
+       font-size: 10px;
+   }
+
+   .Priest-page1 {
+       height: 100vh;
+       background: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgb(65, 79, 108)), url(photos/background-priest.png);
+       background-position: center;
+       background-size: 100%;
+       background-repeat: none;
+       overflow: hidden;
+       display: flex;
+   }
+
+
+   .info-priest {
+       margin-left: 200px;
+       margin-top: 100px;
+       width: 500px;
+   }
+
+   .title-priest {
+       color: #fff1a4;
+       font-family: "Anton", sans-serif;
+       font-size: 80px;
+       width: 500px;
+   }
+
+   .subtitle-priest {
+       color: yellow;
+       font-size: 40px;
+       margin-top: 20px;
+       width: 500px;
+   }
+
+   .text-priest {
+       color: #FFF;
+       margin-top: 20px;
+       width: 500px;
+   }
+
+   .img-priest1 img {
+       width: 700px;
+       margin-left: 130px;
+   }
+
+   .Priest-page2 {
+       display: flex;
+       overflow: hidden;
+       height: 400vh;
+       background: linear-gradient(to bottom, rgb(89, 99, 121), rgb(65, 79, 108));
+       background-position: center;
+       background-size: 100%;
+   }
+
+   .container-priest {
+       flex-direction: column;
+   }
+
+   .img-left1 img {
+       margin-top: 200px;
+       width: 530px;
+       margin-bottom: 20px;
+       margin-left: 270px;
+   }
+
+   .img-left2 img {
+       width: 800px;
+
+   }
+
+   .img-left3 img {
+       width: 400px;
+       margin-left: 400px;
+       margin-right: 50px;
+       margin-top: 30px;
+   }
+
+
+   .container-priest2 {
+       flex-direction: column;
+   }
+
+   .img1-right img {
+       width: 700px;
+       margin-top: 20px;
+       margin-left: 40px;
+       margin-bottom: 20px;
+   }
+
+   .text-right1 {
+       margin-left: 80px;
+       font-size: 80px;
+       font-family: "Anton", sans-serif;
+       margin-top: 30px;
+       color: #fae56e;
+       margin-bottom: 200px;
+   }
+
+   .img2-right img {
+       width: 500px;
+
+   }
+
+   .title-text {
+       font-size: 40px;
+       margin-top: 100px;
+       margin-bottom: 30px;
+       color: #d7c96e;
+       margin-left: 70px;
+   }
+
+   .text-right2 {
+       color: #FFF;
+       margin-left: 70px;
+   }
+
+   .transition-page6 {
+       overflow: hidden;
+       background-position: center;
+       background-size: 100%;
+       height: 5vh;
+       background: linear-gradient(to top, rgb(65, 79, 108));
+   }
+
+   .grassrivers {
+       overflow: hidden;
+       background: linear-gradient(to top, rgb(97, 121, 89), rgb(65, 79, 108));
+       background-position: center;
+       background-size: 100%;
+       height: 110vh;
+       position: relative;
+   }
+
+   .grassrivers2 img {
+       width: 1050px;
+       margin-left: 250px;
+   }
+
+   .grassrivers2 button {
+       position: absolute;
+       transform: translate(-50%, -50%);
+       border: none;
+       border-radius: 24px;
+       height: 50px;
+       width: 200px;
+       cursor: pointer;
+       padding: 10px 20px;
+       margin-top: 200px;
+       top: 50%;
+       left: 50%;
+       font-size: 10px;
+   }
+
+   .realdiniz-page1 {
+       background: linear-gradient(to left bottom, rgb(65, 79, 108, 0.0), rgb(65, 79, 108)), url(photos/background-realdimiz.png);
+       background-position: center;
+       background-size: 100%;
+       background-repeat: none;
+       height: 130vh;
+       overflow: hidden;
+       display: flex;
+       position: relative;
+   }
+
+   .realdiniz img {
+       width: 900px;
+   }
+
+   .container-diniz {
+       flex-direction: column;
+   }
+
+   .text-diniz {
+       color: #f9efac;
+       margin-left: 200px;
+       font-family: "Anton", sans-serif;
+       font-size: 70px;
+       margin-top: 200px;
+   }
+
+   .text-diniz2 {
+       color: #d7c96e;
+       margin-left: 200px;
+       font-size: 50px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+
+   .text-diniz3 {
+       color: #FFF;
+       margin-left: 200px;
    }
